@@ -1,0 +1,46 @@
+<!-- Tim Hortons Roll Up the Rim Simulator -->
+<!-- Serag Elgamal -->
+<!-- 3/30/2020 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tim Hortons Roll Up the Rim Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Tim Hortons Roll Up the Rim Simulator</h1>
+
+  <hr>
+
+  <!-- province selection -->
+  <h2>Province:</h2>
+  <input type="radio" name="province" id="bc" checked>British Columbia
+  <input type="radio" name="province" id="ab">Alberta
+  <input type="radio" name="province" id="sk">Saskatchewan
+  <br>
+
+  <!-- simulation options -->
+  <button id="button1x">Simulate Once</button>
+  <button id="button5x">Simulate Five Times</button>
+  <button id="buttonGrandPrize">Simulate Until a Grand Prize is Won</button>
+  <button id="button500donuts">Simulate Until 500 Donuts are Won</button>
+
+  <hr>
+
+  <!-- results -->
+  <h2>Results:</h2>
+  <p>Simulations Run: <span id="total">0</span></p>
+  <p>Please Play Again: <span id="playAgain">0</span> | Free Coffee: <span id="coffee">0</span> | Free Donut: <span
+      id="donuts">0</span> | Grand Prize: <span id="grandPrizes">0</span></p><br>
+  <h3 id="result">---</h3>
+  <button id="reset">Reset</button>
+
+
+  <!-- load javascript -->
+  <script src="main.js"></script>
+</body>
+
+</html>
